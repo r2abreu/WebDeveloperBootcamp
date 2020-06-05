@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Movie Search App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+    <h1>Movie Search App</h1>
+
+        <% parsedData['Search'].forEach(function(movie) { %>
+                <li><strong><%= movie['Title'] %></strong> - <%= movie['Year'] %></li>
+        <% }); %>
+
+        <button><a href="/">Search again</a></button>
+
+        <script src="" async defer></script>
+    </body>
+</html>

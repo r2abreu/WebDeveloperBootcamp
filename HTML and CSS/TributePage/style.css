@@ -1,0 +1,61 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+}
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+    border: 2px solid black;
+    background-color: #B1C1CF;
+    position: relative;
+    top: 100px;
+}
+
+.header {
+    border: 1px black solid;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    position: inline;
+}
+
+.header h1  {
+    margin-left: 140px;  
+    display: inline-block;
+    width: 400px;
+}
+
+.content {
+    margin: 0 0 0 10px;
+    width: 620px;
+}
+
+.content #medium {
+    height: 250px;
+    width: 250px;
+    border: 1px solid white ;
+}
+
+.content figure {
+    width: 250px;
+    height: 370px;
+    padding: 10px;
+    background-color:#63798F;
+    display: block;
+}
+
+figure figcaption .quote {
+    font-style: italic;
+    color: white;
+}
+
+figure figcaption {
+    text-align: center;
+}
